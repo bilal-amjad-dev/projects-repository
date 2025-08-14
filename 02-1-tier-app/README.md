@@ -5,7 +5,7 @@
 
 In this, we have 3 things:
 - Code (GitHub)
-- Build
+- Build (Docker)
   - Dockerfile (Containerize)
   - Image (docker build -t )
   - Container (docker run -t )
