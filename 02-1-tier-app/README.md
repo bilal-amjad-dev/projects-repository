@@ -5,7 +5,11 @@
 
 In this, we have 3 things:
 - Code (GitHub)
-- Build (Dockerfile, Image, Container, Push)
+- Build
+  - Dockerfile (Containerize)
+  - Image (docker build -t )
+  - Container (docker run -t )
+  - Push (docker push)
 - Deploy (Kubernetes)
 
 
