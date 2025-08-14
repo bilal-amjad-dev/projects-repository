@@ -1,4 +1,8 @@
 
+[DevOpsified | Complete DevOps Implementation in one project](https://www.youtube.com/watch?v=HGu9sgoHaJ0)
+
+
+
 https://medium.com/@vijaymehrotra99/end-to-end-devops-on-a-golang-web-application-from-code-to-production-dede237f1f2d
 
 
