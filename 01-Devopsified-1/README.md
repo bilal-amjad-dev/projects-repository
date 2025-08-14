@@ -1,5 +1,6 @@
+[![DevOpsified | Complete DevOps Implementation in one project](https://img.youtube.com/vi/HGu9sgoHaJ0/0.jpg)](https://www.youtube.com/watch?v=HGu9sgoHaJ0)
 
-[DevOpsified | Complete DevOps Implementation in one project](https://www.youtube.com/watch?v=HGu9sgoHaJ0)
+
 
 
 
