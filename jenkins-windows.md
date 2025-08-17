@@ -6,6 +6,10 @@ I was facing issue in creating EC2. So, I asked perplexity.ai. Then i decided to
 https://medium.com/@bilal_amjad/jenkins-installation-on-windows-b3cc2b04b19f
 
 
+How to install: 
+- java 21
+- jenkins
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/f4d87056-23bd-41e2-891e-f3e5a8f66ae8" />
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5dbc44d5-6320-4b51-9548-335facc3e155" />
