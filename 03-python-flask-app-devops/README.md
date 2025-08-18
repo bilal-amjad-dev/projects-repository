@@ -55,6 +55,11 @@
 
 - Select: `repo` `admin:repo_hook` `notifications`
 
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ecce208d-b7f3-42b2-ba84-ca356f8f9e8b" />
+
+- Click `Generate token`
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1570f0cb-6f6e-4f75-ad18-e9c133fbbd10" />
 
 - Note `PAT` 
