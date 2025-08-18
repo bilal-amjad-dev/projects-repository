@@ -4,8 +4,8 @@ Install Minikube
 Install Jenkins
 - Install plugins in Jenkins
 - Add credentials in Jenkins:
-    GitHub
-    DockerHub
+    - GitHub
+    - DockerHub
 - Create Job
 CHANGES
 - Add Webhook
