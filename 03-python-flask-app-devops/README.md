@@ -1,6 +1,6 @@
 Steps:
 ```bash
-Install Minikube: 
+Install Minikube
 Install Jenkins
 - Install plugins in Jenkins:
 - Add credentials in Jenkins:
