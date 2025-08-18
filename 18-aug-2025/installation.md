@@ -55,6 +55,28 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ---
 ### ArgoCD
+- Install Argo CD using manifests
+```bash
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
+
+- Access the Argo CD UI (Loadbalancer service)
+```bash
+kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
+```
+
+- Get the Loadbalancer service IP
+```bash
+kubectl get svc argocd-server -n argocd
+```
+
+- Login to ArgoCD:
+(The default username is admin and get the password using the following command):
+```bash
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+```
+
 ---
 ### Sonarqube container
 ---
