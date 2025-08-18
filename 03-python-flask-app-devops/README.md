@@ -6,7 +6,6 @@ Install Jenkins
 - Add credentials in Jenkins:
     GitHub
     DockerHub
-
 - Create Job
 - Add Webhook
 ```
