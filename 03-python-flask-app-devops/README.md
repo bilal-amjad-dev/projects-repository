@@ -64,4 +64,40 @@
 
 - Note `PAT` 
 
+---
+Now, we have `Dockerhub` token and `Github` token. Now, Add credentials in Jenkins
+
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4f465d05-9dcf-4efd-879d-f156cf9b94c7" />
+
+- Click **Manage Jenkins**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/14e25ce6-1132-49d5-851c-57d56e3b7575" />
+
+- Click **Credentials**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/0782e897-921a-46a9-b877-99be38892e07" />
+
+- Click **global**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/80c7d259-ab6e-4d45-b4dd-a588a9e55e3b" />
+
+- Click **Add Credentials**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/aacc58f4-79d7-4fb4-83e6-3f6388bc495d" />
+
+- Username, Password, ID, Description
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/446014c5-792b-4321-aef4-eb332c60b06d" />
+
+- Username, Password, ID, Description
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3771b0f5-8f08-45b5-8487-8f4cad730728" />
+
+You can see our credentials have stored. 
+
+
+
+
+
 Commit Date: 18-Aug-2025
