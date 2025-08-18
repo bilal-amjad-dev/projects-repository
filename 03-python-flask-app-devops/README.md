@@ -7,19 +7,20 @@ Install Jenkins
     GitHub
     DockerHub
 - Create Job
+CHANGES
 - Add Webhook
 ```
 
 
 
-### Install Minikube
-### Install Jenkins
-- Install plugin
+## Install Minikube
+## Install Jenkins
+- ### Install plugin
 
 
-- Add credentials
+- ### Add credentials
 
-  - Dockerhub
+  - **Dockerhub**
 
  <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5d836a62-03a2-479f-8ffd-0bff55b46160" />
 
@@ -43,7 +44,7 @@ Install Jenkins
 
 ---
 
-  - Github
+  - **Github**
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/68c3069f-9438-46aa-90da-1722dbd0f174" />
 
@@ -109,6 +110,87 @@ Now, we have `Dockerhub` token and `Github` token. Now, Add credentials in Jenki
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3771b0f5-8f08-45b5-8487-8f4cad730728" />
 
 You can see our credentials have stored. 
+
+---
+
+## Creaate Job
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ed72d2f6-1c06-4903-a0c8-74629118ffeb" />
+
+- Click ***New item*
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3a023c4b-3580-4ff3-9a74-4eec0f3e8795" />
+
+- Enter **name**
+- Click **Pipeline**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/d7be1e47-0440-4b5c-9c74-bc4408171333" />
+
+- Click **GitHub project**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/78648f0b-e9bb-4230-885f-b95b7225fe5f" />
+
+- **Pipeline script from SCM**
+- 
+- **SCM: Git** 
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1a1aaf4a-58b5-4458-ac93-9834fc625469" />
+
+- **Repository URL**
+- **Branch Specifier: /main**
+- Click Save
+
+
+---
+
+## CHANGES
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3bcf645f-56a8-4dff-8b25-b40574345bbf" />
+
+- Paste your **DOCKERHUB-USERNAME** and **GITHUB-USERNAME**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6e26fb3b-483d-4c7f-a3eb-90d70e92dc62" />
+
+- Paste your **DOCKERHUB-USERNAME**
+
+## Add Webhook
+
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4cb2766c-6bca-4635-9049-f8d431e1ed4b" />
+
+- Click **Settings**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/9829943a-0571-4f14-8a77-0f52be21a166" />
+
+- Click **Webhooks**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/81d84498-7b99-4626-a6f6-cadc3250f154" />
+
+- Click **Add webhook**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/983567fa-c807-45c7-9609-2fd599097c63" />
+
+- **Payload URL** Paste your Jenkins URL here
+- **Content type**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/930ab2f6-7344-4404-a171-3967112b2077" />
+
+- Click **Add webhook**
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/633d5462-605d-45da-bf23-dfdbf3e638e7" />
+
+- We cannot save localhost:8080 in **Payload URL**
+
+  
+
+
+
+
+
+
+
+
+
 
 
 
