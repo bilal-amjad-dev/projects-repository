@@ -1,6 +1,5 @@
+Steps:
 ```bash
----
-
 Install Minikube: 
 Install Jenkins
 - Install plugins in Jenkins:
