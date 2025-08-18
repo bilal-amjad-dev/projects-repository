@@ -32,7 +32,7 @@
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/68c3069f-9438-46aa-90da-1722dbd0f174" />
 
-- Click `Settings
+- Click `Settings`
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/f02c3661-b18e-43a0-b8ec-d6bac818ca68" />
 
@@ -48,7 +48,7 @@
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/853b091a-f23f-4acf-9193-515ec371f7d3" />
 
-- Click `PTA` name
+- Write `PTA` name
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b5f573c6-7f0c-48ec-9d9f-7e84224f75d3" />
 
@@ -56,6 +56,6 @@
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1570f0cb-6f6e-4f75-ad18-e9c133fbbd10" />
 
-- Note `PAT`
+- Note `PAT` 
 
 Commit Date: 18-Aug-2025
