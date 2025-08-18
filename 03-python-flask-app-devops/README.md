@@ -1,14 +1,14 @@
-Steps:
-```bash
-Install Minikube
-Install Jenkins
-- Install plugins in Jenkins
-- Add credentials in Jenkins:
-    - GitHub
-    - DockerHub
-- Create Job
-CHANGES
-- Add Webhook
+Table of contents
+
+[Install Minikube](#install-minikube)
+[Install Jenkins](#install-jenkins)
+- [Install plugins in Jenkins](#install-plugin)
+- [Add credentials in Jenkins:](#add-credentials)
+    - [Dockerhub](#dockerhub)
+    - [GitHub](#github)
+- [Create Job](#create-job)
+[CHANGES](#changes)
+- [Add Webhook](#add-webhook)
 ```
 
 
