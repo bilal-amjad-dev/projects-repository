@@ -1,4 +1,23 @@
+### Install Minikube
+### Install Jenkins
+- Install plugin
 
+
+- Add credentials
+
+  - Dockerhub
+
+ <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5d836a62-03a2-479f-8ffd-0bff55b46160" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e5c44917-216f-4d6b-bdc8-21c4f28a51dc" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ed13b83d-f4fd-4258-9ce4-71f6ac13ecf9" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/df91ddd1-92dc-4527-ae59-b1e643c48f36" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5fb249da-c27e-40d9-ac12-f9eea248fbbb" />
+
+  - Github
 
 
 
