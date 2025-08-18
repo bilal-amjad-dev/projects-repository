@@ -38,7 +38,7 @@ CHANGES
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/df91ddd1-92dc-4527-ae59-b1e643c48f36" />
 
-- Please note Personal access token because we have to added in Jenkins Credentials, so that jenkins can access Dockerhub.
+- Please note Personal access token because we have to add in Jenkins Credentials, so that jenkins can access Dockerhub.
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5fb249da-c27e-40d9-ac12-f9eea248fbbb" />
 
@@ -77,7 +77,7 @@ CHANGES
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1570f0cb-6f6e-4f75-ad18-e9c133fbbd10" />
 
-- Note **PAT** because we have to added in Jenkins Credentials, so that jenkins can access Github.
+- Note **PAT** because we have to add in Jenkins Credentials, so that jenkins can access Github.
 
 ---
 Now, we have `Dockerhub` token and `Github` token. Now, Add credentials in Jenkins
