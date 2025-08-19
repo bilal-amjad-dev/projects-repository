@@ -150,10 +150,10 @@ You can see our credentials have stored.
 ## CHANGES
 
 ```bash
-DOCKER_IMAGE = 'YOUR-DOCKERHUB-USERNAME/python-flask-app-devops'            // 👈 PASTE YOUR DOCKERHUB-USERNAME HERE
+DOCKER_IMAGE = 'YOUR-DOCKERHUB-USERNAME/python-flask-app-devops'                                                           // 👈 PASTE YOUR DOCKERHUB-USERNAME HERE
 git credentialsId: "${GITHUB_CREDENTIALS}", url: 'https://github.com/YOUR-GITHUB-USERNAME/python-flask-app-devops.git'     // 👈 PASTE YOUR GITHUB-USERNAME HERE
-git config user.email "example@example.com"                                               // 👈 PASTE YOUR EMAIL HERE 
-git config user.name "GITHUB-USERNAME"                                                     // 👈 PASTE YOUR GITHUB-USERNAME HERE
+git config user.email "example@example.com"                                                                                // 👈 PASTE YOUR EMAIL HERE 
+git config user.name "GITHUB-USERNAME"                                                                                     // 👈 PASTE YOUR GITHUB-USERNAME HERE
 ```
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3bcf645f-56a8-4dff-8b25-b40574345bbf" />
