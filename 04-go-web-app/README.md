@@ -8,13 +8,13 @@ we have:
 - ing
 
 
-- **Enable Ingress Controller (for Minikube):**
+1. **Enable Ingress Controller (for Minikube):**
 
 ```bash
 minikube addons enable ingress
 ```
 
-3. **Apply all Kubernetes Manifests:**
+2. **Apply all Kubernetes Manifests:**
 ```bash
 kubectl apply -f k8s/manifests/deployment.yaml
 kubectl apply -f k8s/manifests/service.yaml
@@ -22,7 +22,7 @@ kubectl apply -f k8s/manifests/ingress.yaml
 ```
 
 
-4. **Get Ingress IP:**
+3. **Get Ingress IP:**
 ```bash
 minikube ip
 ```
@@ -30,7 +30,7 @@ minikube ip
 
 
 
-5. **Modify Local Hosts File:**
+4. **Modify Local Hosts File:**
 Linux: `sudo vim /etc/hosts` 
 Windows: C:\Windows\System32\drivers\etc\hosts
 Add this line, replacing <MINIKUBE_IP> with the IP from the previous step:
@@ -43,7 +43,7 @@ Add this line, replacing <MINIKUBE_IP> with the IP from the previous step:
 Save the file.
 
 
-6. **Access Your Application:**
+5. **Access Your Application:**
 
 Open your web browser and go to:
 ```bash
