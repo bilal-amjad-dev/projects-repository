@@ -1,6 +1,6 @@
-# Python Flask App — DevOps Example
+# Go Web App — DevOps Example
 
-A simple Python Flask app containerized with Docker and deployed on Kubernetes. This repo shows how to do everything manually without automation.
+A simple Go Web app containerized with Docker and deployed on Kubernetes. This repo shows how to do everything manually without automation. (In this, we are using ingress.)
 
 ---
 
