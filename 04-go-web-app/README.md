@@ -148,8 +148,64 @@ kubectl apply -f k8s/manifests/ingress.yaml
 
 
 
-- Open port **32402** in your security group
-- Open the app in browser: `http://<EC2_PUBLIC_IP>:32402`
+
+
+There are 3 things we need to remember with respect to ingress:
+- Ingress
+- Ingress Controller
+- Load Balancer
+
+
+Ingress Controller will watch the Ingress and created Load Balancer.
+
+We are telling Ingress Controller create a load balancer 
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
+```
+
+If i access the load balancer, not on the load balancer address but on this particular thing (go-web-app.local)
+, it has to forward the request to this particular service. 
+          service:
+            name: go-web-app
+            port:
+              number: 80
+			  
+If the request is forwarded to the service, it will forward the request to the pods
+
+
+I have done hundred of projects in my 10 years of experience 
+
+```bash
+kubectl get pods -n ingress-nginx 
+kubectl get ing 
+```
+
+take lb ok
+
+```bash
+nslookup paste-your-load-balancer
+```
+
+you have got the IP Address 
+Address: 3.231.186.46 
+
+```bash
+sudo vim /etc/hosts 
+```
+
+now:
+
+3.231.186.46 paste-here-load-balancer
+
+
+Escape:wq
+
+The configuration will take time to reflect but once reflected you can see now the application is accessed on go-web-app.local 
+
+
+
+
 
 ---
 
