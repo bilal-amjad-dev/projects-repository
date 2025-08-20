@@ -166,10 +166,14 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 
 If i access the load balancer, not on the load balancer address but on this particular thing (go-web-app.local)
 , it has to forward the request to this particular service. 
-          service:
-            name: go-web-app
-            port:
-              number: 80
+       
+		  service:
+          
+			name: go-web-app
+           
+			port:
+           
+			  number: 80
 			  
 If the request is forwarded to the service, it will forward the request to the pods
 
