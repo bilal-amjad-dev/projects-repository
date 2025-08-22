@@ -4,6 +4,7 @@ In this project:
 - I did not add **helm**.
 - I went in Abhishek github repository, the Github Action file, and i changed:
   - image name
+  - removed helm word form ignore-path
   - changed the path from helm to k8s/manifests
 - I did this project, you can see the github repository:
 
