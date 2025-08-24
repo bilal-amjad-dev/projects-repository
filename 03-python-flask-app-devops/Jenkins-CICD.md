@@ -2,17 +2,17 @@ Table of contents
 
 ### PCJW
 
-[Install Minikube](#install-minikube)
-[Install Jenkins](#install-jenkins)
-- [Install plugins in Jenkins](#install-plugin)
-- [Add credentials in Jenkins:](#add-credentials)
-    - [Dockerhub](#dockerhub)
-    - [GitHub](#github)
-- [Create Job](#create-job)
+Install Minikube
+Install Jenkins
+- Install plugins in Jenkins
+- Add credentials in Jenkins
+    - Dockerhub
+    - GitHub
+- Create Job
 
-[CHANGES](#changes)
+CHANGES
 
-- [Add Webhook](#add-webhook)
+- Add Webhook
 
 
 
