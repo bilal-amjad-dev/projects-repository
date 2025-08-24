@@ -1,17 +1,12 @@
-Table of contents
+- Install Minikube
+- Install Jenkins
 
-### PCJW
-
-Install Minikube
-
-Install Jenkins
-- Install plugins in Jenkins
-- Add credentials in Jenkins
-    - Dockerhub
-    - GitHub
-- Create Job
-
-CHANGES
+	- Install plugins
+	- Add credentials
+		- Dockerhub
+		- GitHub
+	- Create Job
+		- CHANGES
 
 - Add Webhook
 
