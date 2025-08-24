@@ -6,21 +6,18 @@
 		- Dockerhub
 		- GitHub
 	- Create Job
-		- CHANGES
+		- CHANGES (Jenkinsfile and deployment.yaml)
 
 - Add Webhook
 
 
 
 
-## Install Minikube
-## Install Jenkins
+### Install Minikube
+### Install Jenkins
 - ### Install plugin
 
-
-- ### Add credentials
-
-
+- # Add credentials
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4f465d05-9dcf-4efd-879d-f156cf9b94c7" />
@@ -41,7 +38,7 @@
 
 
 
-  - **Dockerhub**
+  - ## Dockerhub
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/8a1a5d64-d6dd-4b24-84e5-962db129f8dd" />
 
@@ -64,7 +61,7 @@
 
 ---
 
-  - **Github**
+  - ## Github
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/68c3069f-9438-46aa-90da-1722dbd0f174" />
 
