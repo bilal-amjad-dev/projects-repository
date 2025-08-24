@@ -1,12 +1,11 @@
 In github actions, we do following steps:
 
 
-
-We store secrets in github repository:
-
-- dockerusername
-- dockerhub token
-- github token 
+- Write Github Actions file
+- We store secrets in github repository:
+  - dockerusername
+  - dockerhub token
+  - github token 
 
 
 ## Workflow:
@@ -23,9 +22,9 @@ We store secrets in github repository:
 
 - write down your GitHub Actions file 
 
+---
 
-
-### Store Secrets in Github repository:
+## Store Secrets in Github repository:
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/182fb5ac-14fe-4fdb-971f-41300af956ab" />
@@ -37,6 +36,8 @@ We store secrets in github repository:
 - Secrets and variables
 - Actions
 - New repository secret
+
+---
 
 ### Dockerhub username & token
 
@@ -58,7 +59,7 @@ We store secrets in github repository:
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/70c7e499-f137-4b2b-a821-4dca03dfe009" />
 
-
+---
 
 ### Github token
 
