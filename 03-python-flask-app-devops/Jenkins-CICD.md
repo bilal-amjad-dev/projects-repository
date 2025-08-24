@@ -3,6 +3,7 @@ Table of contents
 ### PCJW
 
 Install Minikube
+
 Install Jenkins
 - Install plugins in Jenkins
 - Add credentials in Jenkins
@@ -26,12 +27,8 @@ CHANGES
 
   - **Dockerhub**
 
- <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5d836a62-03a2-479f-8ffd-0bff55b46160" />
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/8a1a5d64-d6dd-4b24-84e5-962db129f8dd" />
 
-- Click **Account settings**
-- Click **PAT**
-  
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e5c44917-216f-4d6b-bdc8-21c4f28a51dc" />
 
 - Click **Generate new token**
 
@@ -44,7 +41,6 @@ CHANGES
 
 - Please note Personal access token because we have to add in Jenkins Credentials, so that jenkins can access Dockerhub.
 
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5fb249da-c27e-40d9-ac12-f9eea248fbbb" />
 
 ---
 
