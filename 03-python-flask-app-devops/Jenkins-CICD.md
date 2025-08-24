@@ -58,6 +58,10 @@
 - Please note Personal access token because we have to add in Jenkins Credentials, so that jenkins can access Dockerhub.
 
 
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/aacc58f4-79d7-4fb4-83e6-3f6388bc495d" />
+
+- Username, Password, ID, Description
+
 ---
 
   - **Github**
@@ -96,9 +100,7 @@ Now, we have `Dockerhub` token and `Github` token. Now, Add credentials in Jenki
 
 
 
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/aacc58f4-79d7-4fb4-83e6-3f6388bc495d" />
 
-- Username, Password, ID, Description
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/446014c5-792b-4321-aef4-eb332c60b06d" />
 
