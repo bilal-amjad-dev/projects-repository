@@ -59,7 +59,37 @@ http://go-web-app.local
 ---
 ---
 ---
+## Ingress controller and Kubernetes
 
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
+```
+
+### Get Load balancer
+
+```
+kubectl get pods -n ingress-nginx 
+kubectl get ing 
+```
+- take lb ok
+
+
+### nslookup paste-your-load-balancer
+
+- you have got the IP Address 
+Address: 3.231.186.46 
+
+`sudo vim /etc/hosts` 
+
+now:
+
+3.231.186.46 paste-here-load-balancer
+
+
+Escape:wq
+
+The configuration will take time to reflect but once reflected you can see now the application is accessed on go-web-app.local 
 
 
 
