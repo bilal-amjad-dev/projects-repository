@@ -10,7 +10,7 @@ In Jenkins CICD, we do following things:
 	- `Create Job`
 		- CHANGES (Jenkinsfile and deployment.yaml)
 
-- `Add Webhook`
+- `Add Webhook` (between Github repository and Jenkins)
 
 
 
