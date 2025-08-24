@@ -54,11 +54,8 @@ CHANGES
 
 - Click **Developer settings**
 
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/43418f1d-cf1c-4e14-a30c-3975e1dacc84" />
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6424c4e8-c26c-4a29-b21a-0af88d70ad14" />
 
-- Click **PAT** > **Token (classic)**
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/a44beb3a-ed0c-4854-8d56-625dcb81e55e" />
 
 - Click **Generate new token** > **Generate new token (classic)**
 
@@ -71,7 +68,6 @@ CHANGES
 - Select: **repo** **admin:repo_hook** **notifications**
 
 
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ecce208d-b7f3-42b2-ba84-ca356f8f9e8b" />
 
 - Click **Generate token**
 
