@@ -8,7 +8,7 @@ In github actions, we do following steps:
   - github token 
 
 
-## Workflow:
+# Workflow:
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/8257d72f-00bf-438f-b729-a2d01cd8c7a3" />
 
@@ -24,7 +24,7 @@ In github actions, we do following steps:
 
 ---
 
-## Store Secrets in Github repository:
+# Store Secrets in Github repository:
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/182fb5ac-14fe-4fdb-971f-41300af956ab" />
@@ -39,7 +39,7 @@ In github actions, we do following steps:
 
 ---
 
-### Dockerhub username & token
+## Dockerhub username & token
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/8a1a5d64-d6dd-4b24-84e5-962db129f8dd" />
@@ -64,7 +64,7 @@ In github actions, we do following steps:
 
 ---
 
-### Github token
+## Github token
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1c53196f-a1f8-491d-8fdc-e448fa6a7f9d" />
 
