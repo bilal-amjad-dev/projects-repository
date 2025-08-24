@@ -1,14 +1,16 @@
+In Jenkins CICD, we do following things:
+
 - Install Minikube
 - Install Jenkins
 
 	- Install plugins
-	- Add credentials
+	- `Add credentials`
 		- Dockerhub
 		- GitHub
-	- Create Job
+	- `Create Job`
 		- CHANGES (Jenkinsfile and deployment.yaml)
 
-- Add Webhook
+- `Add Webhook`
 
 
 
