@@ -8,7 +8,7 @@ In github actions, we do following steps:
   - github token 
 
 
-# Workflow:
+# GitHub Actions file:
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/8257d72f-00bf-438f-b729-a2d01cd8c7a3" />
 
