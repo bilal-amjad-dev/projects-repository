@@ -95,16 +95,14 @@
 
 - Note **PAT** because we have to add in Jenkins Credentials, so that jenkins can access Github.
 
----
-Now, we have `Dockerhub` token and `Github` token. Now, Add credentials in Jenkins
-
-
-
-
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/446014c5-792b-4321-aef4-eb332c60b06d" />
 
 - Username, Password, ID, Description
+
+---
+Now, we have `Dockerhub` token and `Github` token. Now, Add credentials in Jenkins
+
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3771b0f5-8f08-45b5-8487-8f4cad730728" />
 
