@@ -2,7 +2,7 @@
 ### Ingress:
 Ingress controller looks at Ingress and create Load Balancer.
 
-1. ### we have:
+### we have:
 - dep.yaml
 - svc.yaml
 - ing.yaml
