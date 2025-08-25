@@ -1,7 +1,6 @@
 
 
-[![GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://img.youtube.com/vi/R8_veQiYBjI/maxresdefault.jpg)](https://www.youtube.com/watch?v=R8_veQiYBjI)
-
+[![GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://img.youtube.com/vi/R8_veQiYBjI/mqdefault.jpg)](https://www.youtube.com/watch?v=R8_veQiYBjI)
 
 **Important links:**
 
