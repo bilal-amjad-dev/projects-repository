@@ -3,18 +3,16 @@ This repository has content about GitHub Actions practice files:
 
 
 
+|Events|Definition|
+|---|---|
+|`name:` hello-world|name of the workflow|
+|`on push`|on push that means whenever something will be committed and pushed on this repository this job should run|
+|`jobs` :|collection of tasks(like build, push etc)|
+|`steps`|list of actions|
 
-### `name:` hello-world
 
-name of the workflow
 
-### `on push`
 
-on push that means whenever something will be committed and pushed on this repository this job should run
-
-### `jobs` : collection of steps
-
-collection of steps (like build, push etc)
 
 ### `steps` : actions to be taken, commands, scripts
 
