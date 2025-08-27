@@ -12,6 +12,10 @@ name of the workflow
 
 on push that means whenever something will be committed and pushed on this repository this job should run
 
+### `JOBS` : collection of steps
+
+collection of steps (like build, push etc)
+
 
 
 
