@@ -122,3 +122,12 @@ jobs:
 
 
 ```
+
+
+### if we use it, then it can build if our app is python or in go or in any language ???
+
+Yes, absolutely!
+
+The beauty of using Docker and the `docker/build-push-action` (or docker build in general) is that it is language-agnostic. This means it doesn't care if your application is written in Python, Go, Node.js, Java, or any other language.
+
+
