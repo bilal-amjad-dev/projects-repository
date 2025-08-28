@@ -130,4 +130,5 @@ Yes, absolutely!
 
 The beauty of using Docker and the `docker/build-push-action` (or docker build in general) is that it is language-agnostic. This means it doesn't care if your application is written in Python, Go, Node.js, Java, or any other language.
 
+As long as your `Dockerfile` is correctly written for your specific application's language and its dependencies, the `docker/build-push-action` will successfully build and push your image.
 
