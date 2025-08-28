@@ -1,3 +1,74 @@
+```bash
+-
+        name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: true
+          tags: user/app:latest
+```
+
+
+You mentioned "but here i can't do tagging". The tags input is where you define the tags for your image. In your example, you've set it to user/app:latest. If user is meant to be your Docker Hub username and app is your application name, then this is correctly setting one tag.
+
+To add more tags (like the `github.sha` for a unique build ID), you just need to expand the tags input with multiple lines, similar to how we did in the previous example:
+
+
+
+```bash
+-
+        name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: true
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/your-app-name:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/your-app-name:${{ github.sha }}
+
+```
+
+
+---
+
+
+
+What is `docker/setup-qemu-action`?
+
+```bash
+-
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+```
+
+
+- QEMU (Quick EMUlator) is a generic and open-source machine emulator and virtualizer.
+
+- The `docker/setup-qemu-action` action sets up QEMU support for Docker Buildx.
+
+- Purpose: This allows you to build Docker images for multiple architectures (e.g., `linux/amd64`, `linux/arm64`, `linux/arm/v7`) even if your build runner (e.g., `ubuntu-latest` which is `amd64`) is only one architecture. If you're only building for `linux/amd64`, you might not strictly need this, but it's good practice for creating images that run on a wider range of systems (like Raspberry Pis, Apple Silicon Macs, etc.).
+
+
+
+
+
+
+
+What is `docker/setup-buildx-action`?
+
+```bash
+-
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+```
+
+
+
+
+Why "Buildx" vs. just "Build"?
+When you used `run: docker build . -t your-app-name:${{ github.sha }} .` in your previous examples, you were using the standard Docker client's build command. While functional, `docker/build-push-action` (especially in newer versions) leverages Buildx by default because it's more powerful and efficient for CI/CD environments. You don't "study about Buildx" in the same way you study `docker build`; rather, `Buildx` is the engine that `docker build` (and `docker/build-push-action`) uses for more advanced scenarios.
+
+
+
+```bash
 # This workflow uses Docker Buildx to efficiently build and push Docker images.
 name: CI with Docker Buildx
 
@@ -50,5 +121,4 @@ jobs:
           # platforms: linux/amd64,linux/arm64
 
 
-
-Commit Date: 28-Aug-2025
+```
