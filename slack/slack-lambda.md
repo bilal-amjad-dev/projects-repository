@@ -165,3 +165,93 @@ It will work.
 Send me a screenshot of **Slack channel where you typed the command**, and I’ll tell you exactly what is missing.
 
 You're 1 step away — everything else is correct!
+
+
+# WHAT IS WORKSPACE?
+
+Great — happy your lab worked! 🎉
+Now let’s explain **Workspace** in the simplest, beginner-friendly way.
+
+---
+
+# ✅ What Is a Slack Workspace? (Very Simple Explanation)
+
+Think of a **Slack Workspace** like a **company office**.
+
+### Inside 1 building (workspace), you have:
+
+* channels
+* people
+* apps
+* messages
+
+Everything belongs to **that workspace only**.
+
+---
+
+# 🏢 Example to Understand
+
+### Imagine:
+
+You have **two offices**:
+
+1. **Office A** – Quecloudsolutions
+2. **Office B** – Personal Workspace
+
+If you install your app in **Office A**,
+but you go and type `/run-lambda` in **Office B**,
+
+Slack will say:
+
+```
+/run-lambda is not a valid command
+```
+
+Because the app is installed in a *different office* (workspace).
+
+---
+
+# 🧠 Why Workspace Matters for Slash Commands?
+
+Slash commands work **only inside the workspace where the app is installed**.
+
+So:
+
+✔ Install app → Workspace A
+✔ Type command → Workspace A → Works
+❌ Type command → Workspace B → Does NOT work
+
+---
+
+# 🔥 Small Real-Life Analogy
+
+You installed a **doorbell** in House A.
+
+Then you go stand outside House B and press:
+
+```
+🔔 /ring-bell
+```
+
+Of course the bell won’t ring — because the bell is in **House A**.
+
+Same with Slack.
+Your slash command lives inside a specific home → *workspace*.
+
+---
+
+# 🎯 Summary in One Line
+
+A **Slack Workspace = A separate company environment**.
+Apps and slash commands only work inside the workspace where they are installed.
+
+---
+
+If you want, I can also teach you:
+
+👉 Workspace vs Organization
+👉 Workspace vs Channel
+👉 Slack App vs Bot
+👉 How permissions work
+
+Just tell me!
