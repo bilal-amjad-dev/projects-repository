@@ -1,3 +1,6 @@
+# in slack, why we do create an app?
+
+
 Bhai, Slack mein **“Create an App”** karne ka asli reason yeh hai ki bina app ke tum **kuch bhi automate nahi kar sakte**.  
 Yeh jaise WhatsApp pe bot banane ke liye pehle ek “Business API” ya “Bot account” banana padta hai – same cheez Slack mein “App” ke through hoti hai.
 
