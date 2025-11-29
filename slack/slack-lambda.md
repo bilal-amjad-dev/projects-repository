@@ -85,3 +85,83 @@ Bas itna hi!
 Ab tu confidently Slack app bana sakta hai.
 
 Bata “workspace bana liya” ya “app bana liya” — main next step bata dunga ya article likh dunga!
+
+# 3. /run-lambda why is not working?
+
+Great — **your Slash Command is 100% correct now.**
+Everything in the screenshot text is perfect:
+
+✔ `/run-lambda` exists
+✔ Request URL is correct
+✔ Description is correct
+✔ App is installed
+
+So now there is **ONLY ONE REASON** why Slack is still saying:
+
+```
+/run-lambda is not a valid command
+```
+
+### 👉 You are typing the command **in your own DM (Direct Message) to yourself**.
+
+Slash commands **do not work inside DM with yourself**.
+
+This is why Slackbot replies **“not a valid command”**.
+
+---
+
+# ✅ Where you SHOULD run the command
+
+Try `/run-lambda` in ANY of these:
+
+### ✔️ A public channel
+
+(e.g., #general)
+
+### ✔️ A private channel
+
+(only if the app is added to that channel)
+
+### ✔️ A DM with the bot **lambda-trigger**
+
+(not with “Bilal Amjad (you)”)
+
+---
+
+# ❌ Where it WILL NOT work
+
+* ❌ In your own DM
+* ❌ In a DM with Slackbot
+* ❌ In a channel where the app is not added
+
+---
+
+# 🔥 Try This (Guaranteed Fix)
+
+### **Step 1 — Create a new channel**
+
+Example: `#lambda-test`
+
+### **Step 2 — Add your app to the channel**
+
+In Slack, type:
+
+```
+/invite @lambda-trigger
+```
+
+### **Step 3 — Now test:**
+
+```
+/run-lambda
+```
+
+It will work.
+
+---
+
+# If it still doesn’t work
+
+Send me a screenshot of **Slack channel where you typed the command**, and I’ll tell you exactly what is missing.
+
+You're 1 step away — everything else is correct!
