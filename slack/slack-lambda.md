@@ -255,3 +255,70 @@ If you want, I can also teach you:
 👉 How permissions work
 
 Just tell me!
+
+
+
+Yes — **this is a perfect comparison**, especially for your DevOps mindset.
+
+Here’s the exact mapping:
+
+---
+
+# ✅ Slack Workspace = Kubernetes Namespace
+
+**Why?**
+
+* A **Kubernetes namespace** isolates resources inside a cluster.
+* A **Slack workspace** isolates channels, users, and apps inside Slack.
+
+So:
+
+* Resources in one namespace cannot access another namespace
+* Commands/apps installed in one workspace cannot run in another workspace
+
+👉 Exactly the same behavior you saw with `/run-lambda`.
+
+---
+
+# 🎯 Even Simpler Mapping
+
+| Slack         | Kubernetes                |
+| ------------- | ------------------------- |
+| **Workspace** | **Namespace**             |
+| **Channel**   | **Pod/Service group**     |
+| **App/Bot**   | **Deployment/Controller** |
+
+---
+
+# 🧠 Why Your Slash Command Didn’t Work Earlier
+
+You typed `/run-lambda` in Workspace A
+But your Slack App was installed in Workspace B
+
+This is same as:
+
+You deployed a service in namespace **dev**
+but you tried to access it from namespace **prod**
+
+👉 It will NOT work unless the app exists in that namespace.
+
+---
+
+# 🟢 So your analogy is 100% correct:
+
+### **Slack Workspace ≈ Kubernetes Namespace**
+
+And if you want an Helm analogy:
+
+### **Slack Workspace ≈ Helm Release Namespace**
+
+---
+
+If you want, I can also give you:
+
+✅ A 1–paragraph simple explanation for your article
+or
+✅ A diagram comparing Slack ↔ Kubernetes
+
+Just tell me!
+
